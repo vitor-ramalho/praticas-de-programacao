@@ -27,17 +27,17 @@ namespace aula02atividade01
             {
                 Console.WriteLine("O maior número é X: " + x);
             }
-            if (y > x & y > z)
+            else if (y > x & y > z)
             {
                 Console.WriteLine("O maior número é Y: " + y);
             }
-            if (z > x & z > y)
+            else if (z > x & z > y)
             {
                 Console.WriteLine("O maior número é Z: " + z);
             }
 
             Array.Sort(numbers);
-            Console.WriteLine("Ordem decrescente:");
+            Console.WriteLine("Ordem crescente:");
             foreach (int number in numbers)
             {
                 Console.WriteLine(number);
