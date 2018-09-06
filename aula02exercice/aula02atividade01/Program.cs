@@ -37,10 +37,14 @@ namespace aula02atividade01
             }
 
             Array.Sort(numbers);
+            Console.WriteLine("Ordem decrescente:");
             foreach (int number in numbers)
             {
                 Console.WriteLine(number);
             }
+
+            Console.WriteLine("Aperte uma tecla para sair.");
+            Console.ReadKey();
         }
     }
 }

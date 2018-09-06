@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Guilherme\\Documents\\Projetos\\praticas-de-programacao\\aula02atividade01\\aula02atividade01\\aula02atividade01.csproj",
+      "projectUniqueName": "C:\\Users\\Guilherme\\Documents\\Projetos\\praticas-de-programacao\\aula02exercice\\aula02atividade01\\aula02atividade01.csproj",
       "projectName": "aula02atividade01",
-      "projectPath": "C:\\Users\\Guilherme\\Documents\\Projetos\\praticas-de-programacao\\aula02atividade01\\aula02atividade01\\aula02atividade01.csproj",
+      "projectPath": "C:\\Users\\Guilherme\\Documents\\Projetos\\praticas-de-programacao\\aula02exercice\\aula02atividade01\\aula02atividade01.csproj",
       "packagesPath": "C:\\Users\\Guilherme\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Guilherme\\Documents\\Projetos\\praticas-de-programacao\\aula02atividade01\\aula02atividade01\\obj\\",
+      "outputPath": "C:\\Users\\Guilherme\\Documents\\Projetos\\praticas-de-programacao\\aula02exercice\\aula02atividade01\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
