@@ -51,7 +51,13 @@ class Program
     static public int[,] TrocaLinhas2e8(int[,] MyArray)
     {
         int[,] MyArrayF = new int[12,12];
-        MyArrayF = MyArray;
+        for (int i = 0; i < 12; i++)
+        {
+            for (int j = 0; j < 12; j++)
+            {
+                MyArrayF[i, j] = MyArray[i, j];
+            }
+        }
 
         for (int i = 0; i < 12; i++)
         {
@@ -64,7 +70,13 @@ class Program
     static public int[,] TrocaColuna4e10(int[,] MyArray)
     {
         int[,] MyArrayF = new int[12,12];
-        MyArrayF = MyArray;
+        for (int i = 0; i < 12; i++)
+        {
+            for (int j = 0; j < 12; j++)
+            {
+                MyArrayF[i, j] = MyArray[i, j];
+            }
+        }
 
         for (int i = 0; i < 12; i++)
         {
@@ -77,7 +89,13 @@ class Program
     static public int[,] TrocaLinha5Coluna10(int[,] MyArray)
     {
         int[,] MyArrayF = new int[12,12];
-        MyArrayF = MyArray;
+        for (int i = 0; i < 12; i++)
+        {
+            for (int j = 0; j < 12; j++)
+            {
+                MyArrayF[i, j] = MyArray[i, j];
+            }
+        }
 
         for (int i = 0; i < 12; i++)
         {
@@ -90,7 +108,13 @@ class Program
     static public int[,] TrocaDiagonais(int[,] MyArray)
     {
         int[,] MyArrayF = new int[12,12];
-        MyArrayF = MyArray;
+        for (int i = 0; i < 12; i++)
+        {
+            for (int j = 0; j < 12; j++)
+            {
+                MyArrayF[i, j] = MyArray[i, j];
+            }
+        }
 
         for (int i = 0; i < 12; i++)
         {
