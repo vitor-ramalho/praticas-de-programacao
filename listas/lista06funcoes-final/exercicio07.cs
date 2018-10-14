@@ -8,6 +8,7 @@ class Program
         int[,] MyArray3 = new int[12,12];
         int[,] MyArray4 = new int[12,12];
         int[,] MyArray5 = new int[12,12];
+        Random randm = new Random();
         bool programaAberto = true;
         int opcao;
 
@@ -15,15 +16,16 @@ class Program
         {
             for (int j = 0; j < 12; j++)
             {
-                Console.WriteLine("Informe os dados da {0} linha da matriz (12, 12):", i);
-                MyArray[i, j] = Convert.ToInt32(Console.ReadLine());
+                //Console.WriteLine("Informe os dados da {0} linha da matriz (12, 12):", i);
+                //MyArray[i, j] = Convert.ToInt32(Console.ReadLine());
+                MyArray[i, j] = randm.Next(1,9);               
             }
         }
         ExibirArray(MyArray);       
         while(programaAberto == true)
         {
             Console.WriteLine("Escolha a operação que você quer fazer (1 - Troca Linhas 2 e 8 , 2 - Troca Colunas 4 e 10");
-            Console.WriteLine("3 - Troca Linha 5 e Coluna 10, 4 - Troca a diagonal primária com a secundária.");
+            Console.WriteLine("3 - Troca Linha 5 e Coluna 10, 4 - Troca a diagonal primária com a secundária.)");
             Console.WriteLine("Aperte qualquer outra tecla para sair do programa.");
             opcao = Convert.ToInt32(Console.ReadLine());
             if (opcao == 1)
@@ -120,8 +122,8 @@ class Program
         {
             for (int j = 0; j < 12; j++)
             {
-                MyArrayF[i, j] = MyArray[i, (12 - j)];
-                MyArrayF[i, (12 - j)] = MyArray[i, j];
+                MyArrayF[i, j] = MyArray[i, (11 - j)];
+                MyArrayF[i, (11 - j)] = MyArray[i, j];
             }
         }
         ExibirArray(MyArrayF);
