@@ -4,6 +4,7 @@ class Program
 {
     static void Main(string[] args) 
     {
+        
         int studentGrade = 75;
         GiveExtraCredit(ref studentGrade);
         Console.WriteLine(studentGrade);
