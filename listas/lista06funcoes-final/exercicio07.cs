@@ -122,8 +122,8 @@ class Program
         {
             for (int j = 0; j < 12; j++)
             {
-                MyArrayF[i, j] = MyArray[i, (11 - j)];
-                MyArrayF[i, (11 - j)] = MyArray[i, j];
+                MyArrayF[i, i] = MyArray[i, 11 - i];
+                MyArrayF[i, 11 - i] = MyArray[i, i];
             }
         }
         ExibirArray(MyArrayF);
