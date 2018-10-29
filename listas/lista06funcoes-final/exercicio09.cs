@@ -15,20 +15,20 @@ class Program
             }
         }
         ExibirArray(MyArray);
-        int soma = SomaAcimaDaDiagonalPrincipal(MyArray);
-        Console.WriteLine("A soma dos números acima da diagonal principal é {0}.", soma);
+        int soma = SomaAbaixoDaDiagonalPrincipal(MyArray);
+        Console.WriteLine("A soma dos números abaixo da diagonal principal é {0}.", soma);
     }
-    static int SomaAcimaDaDiagonalPrincipal(int[,] MyArray)
+    static int SomaAbaixoDaDiagonalPrincipal(int[,] MyArray)
     {
         int[] ArraySoma = new int[10];
         int soma = 0;
-        for (int i = 0; i < 10; i++)
+        for (int i = 1; i < 10; i++)
         {
             int somaLinha = 0;
 
-            for (int j = 0; j < (10 - i - 1); j++)
+            for (int j = 0; (j < (10 - (10 - i))); j++)
             {
-                somaLinha = somaLinha + MyArray[i, (-j + 9)];
+                somaLinha = somaLinha + MyArray[i, j];
             }
             Console.WriteLine(somaLinha);
             soma = soma + somaLinha;
